@@ -52,15 +52,19 @@ function arrayConverter(array) {
   return obj;
 }
 //Savonna's work:
+
 // function arrayConverter(array) {
 //   //count is in an object
 //   let counter = {};
+
 //   //iterate through the array
-//   //if not in the object, add into the array
-//   //if it is in the object, increment
 //   for (let value of array) {
+
+//   //if not in the object, add into the array
 //     if (counter[value] === undefined) {
 //       counter[value] = 1;
+
+//   //if it is in the object, increment
 //     } else {
 //       counter[value]++;
 //     }
@@ -68,8 +72,8 @@ function arrayConverter(array) {
 
 //   return counter;
 // }
-//Examples:
 
+//Examples:
 console.log(arrayConverter(["apple", "apple"])); // => {apple: 2}
 console.log(arrayConverter(["mango", "pineapple"])); // => {mango: 1, pineapple: 1}
 console.log(arrayConverter(["banana", "banana", "apple", "potato"])); // => {apple: 1, banana: 2, potato: 1}
